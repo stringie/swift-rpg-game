@@ -1,0 +1,197 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "mapVis"
+- "DefaultHero"
+- "DefaultPlayer"
+- "p"
+- "p2"
+- "g"
+- "m"
+- "command"
+provides-nominal:
+- "9MapModule11DefaultHeroV"
+- "9MapModule13DefaultPlayerC"
+provides-member:
+- ["9MapModule11DefaultHeroV", ""]
+- ["9MapModule13DefaultPlayerC", ""]
+depends-top-level:
+- "!="
+- "+"
+- "+="
+- "Armor"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "DefaultHero"
+- "DefaultPlayer"
+- "FloatLiteralType"
+- "Hero"
+- "Int"
+- "IntegerLiteralType"
+- "MapVisualizer"
+- "MazeGenerator"
+- "Player"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalarType"
+- "Weapon"
+- "command"
+- "g"
+- "m"
+- "mapVis"
+- "p"
+- "p2"
+- "print"
+- "readLine"
+depends-member:
+- ["s18AdditiveArithmeticP", "init"]
+- ["Sa", "subscript"]
+- ["SK", "subscript"]
+- ["Sz", "init"]
+- ["s7CVarArgP", "init"]
+- ["Sl", "subscript"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "appendInterpolation"]
+- ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["Se", "init"]
+- ["Se", "subscript"]
+- ["9MapModule11DefaultHeroV", "Armor"]
+- ["9MapModule11DefaultHeroV", "Int"]
+- ["9MapModule11DefaultHeroV", "String"]
+- ["9MapModule11DefaultHeroV", "Weapon"]
+- ["9MapModule11DefaultHeroV", "armor"]
+- ["9MapModule11DefaultHeroV", "deinit"]
+- ["9MapModule11DefaultHeroV", "energy"]
+- ["9MapModule11DefaultHeroV", "init"]
+- ["9MapModule11DefaultHeroV", "lifePoitns"]
+- ["9MapModule11DefaultHeroV", "race"]
+- ["9MapModule11DefaultHeroV", "weapon"]
+- ["9MapModule13DefaultPlayerC", "Bool"]
+- ["9MapModule13DefaultPlayerC", "DefaultHero"]
+- ["9MapModule13DefaultPlayerC", "Hero"]
+- ["9MapModule13DefaultPlayerC", "String"]
+- ["9MapModule13DefaultPlayerC", "deinit"]
+- ["9MapModule13DefaultPlayerC", "hero"]
+- ["9MapModule13DefaultPlayerC", "init"]
+- ["9MapModule13DefaultPlayerC", "isAlive"]
+- ["9MapModule13DefaultPlayerC", "name"]
+- ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "init"]
+- ["SE", "subscript"]
+- ["SQ", "init"]
+- ["SQ", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "init"]
+- ["SH", "init"]
+- ["SH", "subscript"]
+- ["9MapModule4HeroP", ""]
+- ["9MapModule4HeroP", "armor"]
+- ["9MapModule4HeroP", "energy"]
+- ["9MapModule4HeroP", "init"]
+- ["9MapModule4HeroP", "lifePoitns"]
+- ["9MapModule4HeroP", "race"]
+- ["9MapModule4HeroP", "weapon"]
+- ["Si", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["9MapModule0A0P", "availableMoves"]
+- ["9MapModule0A0P", "move"]
+- ["9MapModule0A9GeneratorP", "generate"]
+- ["9MapModule0A9GeneratorP", "init"]
+- ["9MapModule0A8RendererP", "init"]
+- ["9MapModule0A8RendererP", "render"]
+- ["9MapModule0A10VisualizerC", "deinit"]
+- ["9MapModule0A10VisualizerC", "init"]
+- ["9MapModule0A10VisualizerC", "render"]
+- ["9MapModule13MazeGeneratorC", "deinit"]
+- ["9MapModule13MazeGeneratorC", "generate"]
+- ["9MapModule13MazeGeneratorC", "init"]
+- ["s10MirrorPathP", "init"]
+- ["SM", "subscript"]
+- ["Sj", "init"]
+- ["9MapModule6PlayerP", "DefaultHero"]
+- ["9MapModule6PlayerP", ""]
+- ["9MapModule6PlayerP", "hero"]
+- ["9MapModule6PlayerP", "init"]
+- ["9MapModule6PlayerP", "isAlive"]
+- ["9MapModule6PlayerP", "name"]
+- ["9MapModule10PlayerMoveP", "friendlyCommandName"]
+- ["Sk", "subscript"]
+- ["Sm", "subscript"]
+- ["s10SIMDScalarP", "init"]
+- ["ST", "subscript"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", "init"]
+- ["Sx", "init"]
+- ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["s16TextOutputStreamP", "appendInterpolation"]
+- ["s16TextOutputStreamP", "appendLiteral"]
+- ["s14_ArrayProtocolP", "subscript"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s24_DestructorSafeContainerP", "subscript"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s19_HasContiguousBytesP", "subscript"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "Sa"
+- "SK"
+- "Sz"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "9MapModule11DefaultHeroV"
+- "9MapModule13DefaultPlayerC"
+- "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "9MapModule4HeroP"
+- "Si"
+- "s25LosslessStringConvertibleP"
+- "9MapModule0A0P"
+- "9MapModule0A9GeneratorP"
+- "9MapModule0A8RendererP"
+- "9MapModule0A10VisualizerC"
+- "9MapModule13MazeGeneratorC"
+- "s10MirrorPathP"
+- "SM"
+- "Sj"
+- "9MapModule6PlayerP"
+- "9MapModule10PlayerMoveP"
+- "Sk"
+- "Sm"
+- "s10SIMDScalarP"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "s27StringInterpolationProtocolP"
+- "s16TextOutputStreamP"
+- "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "08b94c4090a6121e7afe6c74c3421877"

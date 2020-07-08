@@ -1,0 +1,32 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Map"
+provides-nominal:
+- "9MapModule0A0P"
+provides-member:
+- ["9MapModule0A0P", ""]
+depends-top-level:
+- "Int"
+- "Map"
+- "MapTile"
+- "Player"
+- "PlayerMove"
+depends-member:
+- ["9MapModule0A0P", "Int"]
+- ["9MapModule0A0P", "MapTile"]
+- ["9MapModule0A0P", "Player"]
+- ["9MapModule0A0P", "PlayerMove"]
+- ["9MapModule0A0P", "availableMoves"]
+- ["9MapModule0A0P", "init"]
+- ["9MapModule0A0P", "maze"]
+- ["9MapModule0A0P", "move"]
+- ["9MapModule0A0P", "playerPositions"]
+- ["9MapModule0A0P", "players"]
+depends-nominal:
+- "9MapModule0A0P"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "f769bddf638fd2d8a4c90c6373c56fa6"

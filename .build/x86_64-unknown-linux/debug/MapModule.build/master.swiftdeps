@@ -1,0 +1,19 @@
+version: "Swift version 5.0.1 (swift-5.0.1-RELEASE)"
+options: "943459aff25803bbb5893aa2bc7537fc"
+build_time: [1594216138, 977426713]
+inputs:
+  "/home/runner/swift-rpg-game/Sources/MapModule/MapControl.swift": [1594216134, 937588669]
+  "/home/runner/swift-rpg-game/Sources/MapModule/MapVisualizer.swift": [1594208629, 80232726]
+  "/home/runner/swift-rpg-game/Sources/MapModule/MazeGenerator.swift": [1594215799, 833561782]
+  "/home/runner/swift-rpg-game/Sources/MapModule/enums/MapMoveDirectionEnum.swift": [1594067952, 523192614]
+  "/home/runner/swift-rpg-game/Sources/MapModule/enums/MapTileTypeEnum.swift": [1594125373, 539001916]
+  "/home/runner/swift-rpg-game/Sources/MapModule/main.swift": [1594214904, 720013105]
+  "/home/runner/swift-rpg-game/Sources/MapModule/protocols/ArmorProtocol.swift": [1594124676, 189319624]
+  "/home/runner/swift-rpg-game/Sources/MapModule/protocols/HeroProtocol.swift": [1594124685, 669940686]
+  "/home/runner/swift-rpg-game/Sources/MapModule/protocols/MapGeneratorProtocol.swift": [1594129601, 398487815]
+  "/home/runner/swift-rpg-game/Sources/MapModule/protocols/MapProtocol.swift": [1594208494, 403360772]
+  "/home/runner/swift-rpg-game/Sources/MapModule/protocols/MapRendererProtocol.swift": [1594067952, 523192614]
+  "/home/runner/swift-rpg-game/Sources/MapModule/protocols/MapTileProtocol.swift": [1594067952, 523192614]
+  "/home/runner/swift-rpg-game/Sources/MapModule/protocols/PlayerMoveProtocol.swift": [1594067952, 523192614]
+  "/home/runner/swift-rpg-game/Sources/MapModule/protocols/PlayerProtocol.swift": [1594203949, 801571489]
+  "/home/runner/swift-rpg-game/Sources/MapModule/protocols/WeaponProtocol.swift": [1594124696, 454647175]

@@ -1,0 +1,24 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PlayerMove"
+provides-nominal:
+- "16MapControlModule10PlayerMoveP"
+provides-member:
+- ["16MapControlModule10PlayerMoveP", ""]
+depends-top-level:
+- "MapMoveDirection"
+- "PlayerMove"
+- "String"
+depends-member:
+- ["16MapControlModule10PlayerMoveP", "MapMoveDirection"]
+- ["16MapControlModule10PlayerMoveP", "String"]
+- ["16MapControlModule10PlayerMoveP", "direction"]
+- ["16MapControlModule10PlayerMoveP", "friendlyCommandName"]
+depends-nominal:
+- "16MapControlModule10PlayerMoveP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "f456822215500269cf83584be3c67b05"

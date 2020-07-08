@@ -1,0 +1,77 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/master.swiftdeps"
+  },
+  "/home/runner/swift-rpg-game/Sources/MapControlModule/MapVisualizer.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/MapVisualizer.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/MapVisualizer.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/MapVisualizer~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/MapVisualizer.swiftdeps"
+  },
+  "/home/runner/swift-rpg-game/Sources/MapControlModule/enums/MapMoveDirectionEnum.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/enums/MapMoveDirectionEnum.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/enums/MapMoveDirectionEnum.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/enums/MapMoveDirectionEnum~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/enums/MapMoveDirectionEnum.swiftdeps"
+  },
+  "/home/runner/swift-rpg-game/Sources/MapControlModule/enums/MapTileTypeEnum.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/enums/MapTileTypeEnum.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/enums/MapTileTypeEnum.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/enums/MapTileTypeEnum~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/enums/MapTileTypeEnum.swiftdeps"
+  },
+  "/home/runner/swift-rpg-game/Sources/MapControlModule/main.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/main.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/main.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/main~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/main.swiftdeps"
+  },
+  "/home/runner/swift-rpg-game/Sources/MapControlModule/protocols/ArmorProtocol.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/ArmorProtocol.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/ArmorProtocol.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/ArmorProtocol~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/ArmorProtocol.swiftdeps"
+  },
+  "/home/runner/swift-rpg-game/Sources/MapControlModule/protocols/HeroProtocol.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/HeroProtocol.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/HeroProtocol.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/HeroProtocol~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/HeroProtocol.swiftdeps"
+  },
+  "/home/runner/swift-rpg-game/Sources/MapControlModule/protocols/MapProtocol.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/MapProtocol.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/MapProtocol.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/MapProtocol~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/MapProtocol.swiftdeps"
+  },
+  "/home/runner/swift-rpg-game/Sources/MapControlModule/protocols/MapRendererProtocol.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/MapRendererProtocol.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/MapRendererProtocol.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/MapRendererProtocol~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/MapRendererProtocol.swiftdeps"
+  },
+  "/home/runner/swift-rpg-game/Sources/MapControlModule/protocols/MapTileProtocol.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/MapTileProtocol.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/MapTileProtocol.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/MapTileProtocol~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/MapTileProtocol.swiftdeps"
+  },
+  "/home/runner/swift-rpg-game/Sources/MapControlModule/protocols/PlayerMoveProtocol.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/PlayerMoveProtocol.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/PlayerMoveProtocol.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/PlayerMoveProtocol~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/PlayerMoveProtocol.swiftdeps"
+  },
+  "/home/runner/swift-rpg-game/Sources/MapControlModule/protocols/PlayerProtocol.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/PlayerProtocol.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/PlayerProtocol.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/PlayerProtocol~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/PlayerProtocol.swiftdeps"
+  },
+  "/home/runner/swift-rpg-game/Sources/MapControlModule/protocols/WeaponProtocol.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/WeaponProtocol.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/WeaponProtocol.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/WeaponProtocol~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapControlModule.build/protocols/WeaponProtocol.swiftdeps"
+  }
+}

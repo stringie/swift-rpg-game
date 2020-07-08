@@ -1,0 +1,22 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Weapon"
+provides-nominal:
+- "16MapControlModule6WeaponP"
+provides-member:
+- ["16MapControlModule6WeaponP", ""]
+depends-top-level:
+- "Int"
+- "Weapon"
+depends-member:
+- ["16MapControlModule6WeaponP", "Int"]
+- ["16MapControlModule6WeaponP", "attack"]
+- ["16MapControlModule6WeaponP", "defence"]
+depends-nominal:
+- "16MapControlModule6WeaponP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "bb2a1c75fb634c7390a16bc719ea8967"

@@ -1,0 +1,13 @@
+// swift-tools-version:5.0
+
+import PackageDescription
+
+let package = Package(
+  name: "SwiftRPGProject",
+  dependencies: [],
+  targets: [
+    .target(
+      name: "MapModule",
+      dependencies: []),
+  ]
+)

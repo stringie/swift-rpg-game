@@ -1,0 +1,265 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DefaultPlayerMove"
+- "DefaultMap"
+provides-nominal:
+- "9MapModule17DefaultPlayerMoveC"
+- "9MapModule07DefaultA0C"
+provides-member:
+- ["9MapModule17DefaultPlayerMoveC", ""]
+- ["9MapModule07DefaultA0C", ""]
+depends-top-level:
+- !private "!="
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "=="
+- "AssignmentPrecedence"
+- "DefaultMap"
+- "DefaultPlayerMove"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Map"
+- "MapMoveDirection"
+- "MapTile"
+- !private "MapTileType"
+- "Player"
+- "PlayerMove"
+- "String"
+- !private "StringLiteralType"
+- !private "abs"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "0"]
+- !private ["s10ArraySliceV", "1"]
+- !private ["s10ArraySliceV", "state"]
+- !private ["s10ArraySliceV", "subscript"]
+- !private ["s10ArraySliceV", "type"]
+- !private ["SK", "0"]
+- !private ["SK", "1"]
+- !private ["SK", "append"]
+- !private ["SK", "state"]
+- !private ["SK", "subscript"]
+- !private ["SK", "type"]
+- !private ["Sl", "0"]
+- !private ["Sl", "1"]
+- !private ["Sl", "append"]
+- !private ["Sl", "state"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "type"]
+- !private ["s28CustomDebugStringConvertibleP", "0"]
+- !private ["s28CustomDebugStringConvertibleP", "1"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s17CustomReflectableP", "0"]
+- !private ["s17CustomReflectableP", "1"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "state"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "type"]
+- !private ["s23CustomStringConvertibleP", "0"]
+- !private ["s23CustomStringConvertibleP", "1"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["Se", "append"]
+- !private ["Se", "subscript"]
+- !private ["9MapModule07DefaultA0C", "DefaultPlayerMove"]
+- ["9MapModule07DefaultA0C", "Int"]
+- ["9MapModule07DefaultA0C", "MapMoveDirection"]
+- ["9MapModule07DefaultA0C", "MapTile"]
+- !private ["9MapModule07DefaultA0C", "MapTileType"]
+- ["9MapModule07DefaultA0C", "Player"]
+- ["9MapModule07DefaultA0C", "PlayerMove"]
+- ["9MapModule07DefaultA0C", "String"]
+- !private ["9MapModule07DefaultA0C", "abs"]
+- ["9MapModule07DefaultA0C", "availableMoves"]
+- ["9MapModule07DefaultA0C", "deinit"]
+- !private ["9MapModule07DefaultA0C", "findPlayerIndex"]
+- !private ["9MapModule07DefaultA0C", "findTeleporter"]
+- !private ["9MapModule07DefaultA0C", "getDirection"]
+- !private ["9MapModule07DefaultA0C", "getDirectionString"]
+- !private ["9MapModule07DefaultA0C", "getMovePos"]
+- ["9MapModule07DefaultA0C", "init"]
+- ["9MapModule07DefaultA0C", "maze"]
+- ["9MapModule07DefaultA0C", "move"]
+- ["9MapModule07DefaultA0C", "playerPositions"]
+- ["9MapModule07DefaultA0C", "players"]
+- ["9MapModule07DefaultA0C", "setMazeDetails"]
+- ["9MapModule07DefaultA0C", "teleportPositions"]
+- ["9MapModule17DefaultPlayerMoveC", "MapMoveDirection"]
+- ["9MapModule17DefaultPlayerMoveC", "String"]
+- ["9MapModule17DefaultPlayerMoveC", "deinit"]
+- ["9MapModule17DefaultPlayerMoveC", "direction"]
+- ["9MapModule17DefaultPlayerMoveC", "friendlyCommandName"]
+- ["9MapModule17DefaultPlayerMoveC", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "append"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "0"]
+- !private ["SQ", "1"]
+- !private ["SQ", "append"]
+- !private ["SQ", "chest"]
+- ["SQ", "down"]
+- !private ["SQ", "empty"]
+- ["SQ", "left"]
+- !private ["SQ", "player"]
+- ["SQ", "right"]
+- !private ["SQ", "rock"]
+- !private ["SQ", "state"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "teleport"]
+- !private ["SQ", "type"]
+- ["SQ", "up"]
+- !private ["SQ", "wall"]
+- !private ["s25ExpressibleByArrayLiteralP", "0"]
+- !private ["s25ExpressibleByArrayLiteralP", "1"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "state"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "type"]
+- !private ["SH", "0"]
+- !private ["SH", "1"]
+- !private ["SH", "append"]
+- !private ["SH", "chest"]
+- ["SH", "down"]
+- !private ["SH", "empty"]
+- ["SH", "left"]
+- !private ["SH", "player"]
+- ["SH", "right"]
+- !private ["SH", "rock"]
+- !private ["SH", "state"]
+- !private ["SH", "subscript"]
+- !private ["SH", "teleport"]
+- !private ["SH", "type"]
+- ["SH", "up"]
+- !private ["SH", "wall"]
+- !private ["s20LazySequenceProtocolP", "subscript"]
+- !private ["9MapModule0A0P", "DefaultPlayerMove"]
+- !private ["9MapModule0A0P", "MapMoveDirection"]
+- !private ["9MapModule0A0P", "MapTileType"]
+- ["9MapModule0A0P", ""]
+- !private ["9MapModule0A0P", "abs"]
+- ["9MapModule0A0P", "availableMoves"]
+- !private ["9MapModule0A0P", "findPlayerIndex"]
+- !private ["9MapModule0A0P", "findTeleporter"]
+- !private ["9MapModule0A0P", "getDirection"]
+- !private ["9MapModule0A0P", "getDirectionString"]
+- !private ["9MapModule0A0P", "getMovePos"]
+- ["9MapModule0A0P", "init"]
+- ["9MapModule0A0P", "maze"]
+- ["9MapModule0A0P", "move"]
+- ["9MapModule0A0P", "playerPositions"]
+- ["9MapModule0A0P", "players"]
+- !private ["9MapModule0A0P", "teleportPositions"]
+- ["9MapModule0A13MoveDirectionO", "down"]
+- ["9MapModule0A13MoveDirectionO", "left"]
+- ["9MapModule0A13MoveDirectionO", "right"]
+- ["9MapModule0A13MoveDirectionO", "up"]
+- !private ["9MapModule0A4TileP", "state"]
+- !private ["9MapModule0A4TileP", "type"]
+- !private ["9MapModule0A8TileTypeO", "chest"]
+- !private ["9MapModule0A8TileTypeO", "deinit"]
+- !private ["9MapModule0A8TileTypeO", "empty"]
+- !private ["9MapModule0A8TileTypeO", "player"]
+- !private ["9MapModule0A8TileTypeO", "rock"]
+- !private ["9MapModule0A8TileTypeO", "teleport"]
+- !private ["9MapModule0A8TileTypeO", "wall"]
+- !private ["SM", "0"]
+- !private ["SM", "1"]
+- !private ["SM", "append"]
+- !private ["SM", "state"]
+- !private ["SM", "subscript"]
+- !private ["SM", "type"]
+- !private ["9MapModule6PlayerP", "name"]
+- ["9MapModule10PlayerMoveP", ""]
+- ["9MapModule10PlayerMoveP", "direction"]
+- ["9MapModule10PlayerMoveP", "friendlyCommandName"]
+- !private ["9MapModule10PlayerMoveP", "init"]
+- !private ["Sk", "0"]
+- !private ["Sk", "1"]
+- !private ["Sk", "append"]
+- !private ["Sk", "state"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "type"]
+- !private ["Sm", "0"]
+- !private ["Sm", "1"]
+- !private ["Sm", "append"]
+- !private ["Sm", "state"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "type"]
+- !private ["ST", "0"]
+- !private ["ST", "1"]
+- !private ["ST", "append"]
+- !private ["ST", "state"]
+- !private ["ST", "subscript"]
+- !private ["ST", "type"]
+- !private ["s5SliceV", "subscript"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "0"]
+- !private ["s14_ArrayProtocolP", "1"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "state"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "type"]
+- !private ["s24_DestructorSafeContainerP", "0"]
+- !private ["s24_DestructorSafeContainerP", "1"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "state"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "type"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "9MapModule07DefaultA0C"
+- "9MapModule17DefaultPlayerMoveC"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "s20LazySequenceProtocolP"
+- "9MapModule0A0P"
+- "9MapModule0A13MoveDirectionO"
+- !private "9MapModule0A4TileP"
+- !private "9MapModule0A8TileTypeO"
+- !private "SM"
+- !private "9MapModule6PlayerP"
+- "9MapModule10PlayerMoveP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s5SliceV"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "6c87dda2c1fde746d12dc0a3e4b9b521"

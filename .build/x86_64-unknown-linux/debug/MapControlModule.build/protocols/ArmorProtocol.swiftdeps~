@@ -1,0 +1,22 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Armor"
+provides-nominal:
+- "16MapControlModule5ArmorP"
+provides-member:
+- ["16MapControlModule5ArmorP", ""]
+depends-top-level:
+- "Armor"
+- "Int"
+depends-member:
+- ["16MapControlModule5ArmorP", "Int"]
+- ["16MapControlModule5ArmorP", "attack"]
+- ["16MapControlModule5ArmorP", "defence"]
+depends-nominal:
+- "16MapControlModule5ArmorP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "cb8b7d4f994b1a078a075315f9dd3d6f"

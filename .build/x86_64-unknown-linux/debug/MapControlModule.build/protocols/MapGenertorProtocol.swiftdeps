@@ -1,0 +1,23 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MapGenerator"
+provides-nominal:
+- "16MapControlModule0A9GeneratorP"
+provides-member:
+- ["16MapControlModule0A9GeneratorP", ""]
+depends-top-level:
+- "Map"
+- "MapGenerator"
+- "Player"
+depends-member:
+- ["16MapControlModule0A9GeneratorP", "Map"]
+- ["16MapControlModule0A9GeneratorP", "Player"]
+- ["16MapControlModule0A9GeneratorP", "generate"]
+depends-nominal:
+- "16MapControlModule0A9GeneratorP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "67cc76a3b0cd10f3f8bc24f79fcc29e3"

@@ -1,0 +1,150 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "mapVis"
+- "DefaultMapTile"
+- "DefaultMap"
+- "DefaultHero"
+- "DefaultPlayer"
+- "p"
+- "m"
+provides-nominal:
+- "16MapControlModule07DefaultA4TileC"
+- "16MapControlModule07DefaultA0C"
+- "16MapControlModule11DefaultHeroV"
+- "16MapControlModule13DefaultPlayerC"
+provides-member:
+- ["16MapControlModule07DefaultA4TileC", ""]
+- ["16MapControlModule07DefaultA0C", ""]
+- ["16MapControlModule11DefaultHeroV", ""]
+- ["16MapControlModule13DefaultPlayerC", ""]
+depends-top-level:
+- "Armor"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "DefaultHero"
+- "DefaultMap"
+- "DefaultMapTile"
+- "DefaultPlayer"
+- "FloatLiteralType"
+- "Hero"
+- "Int"
+- "IntegerLiteralType"
+- "Map"
+- "MapTile"
+- "MapTileType"
+- "MapVisualizer"
+- "Player"
+- "PlayerMove"
+- "String"
+- "StringLiteralType"
+- "Weapon"
+- "m"
+- "mapVis"
+- "p"
+depends-member:
+- ["16MapControlModule11DefaultHeroV", "Armor"]
+- ["16MapControlModule11DefaultHeroV", "Int"]
+- ["16MapControlModule11DefaultHeroV", "String"]
+- ["16MapControlModule11DefaultHeroV", "Weapon"]
+- ["16MapControlModule11DefaultHeroV", "armor"]
+- ["16MapControlModule11DefaultHeroV", "deinit"]
+- ["16MapControlModule11DefaultHeroV", "energy"]
+- ["16MapControlModule11DefaultHeroV", "init"]
+- ["16MapControlModule11DefaultHeroV", "lifePoitns"]
+- ["16MapControlModule11DefaultHeroV", "race"]
+- ["16MapControlModule11DefaultHeroV", "weapon"]
+- ["16MapControlModule07DefaultA0C", "DefaultMapTile"]
+- ["16MapControlModule07DefaultA0C", "MapTile"]
+- ["16MapControlModule07DefaultA0C", "Player"]
+- ["16MapControlModule07DefaultA0C", "PlayerMove"]
+- ["16MapControlModule07DefaultA0C", "availableMoves"]
+- ["16MapControlModule07DefaultA0C", "deinit"]
+- ["16MapControlModule07DefaultA0C", "init"]
+- ["16MapControlModule07DefaultA0C", "maze"]
+- ["16MapControlModule07DefaultA0C", "move"]
+- ["16MapControlModule07DefaultA0C", "players"]
+- ["16MapControlModule07DefaultA4TileC", "MapTileType"]
+- ["16MapControlModule07DefaultA4TileC", "String"]
+- ["16MapControlModule07DefaultA4TileC", "deinit"]
+- ["16MapControlModule07DefaultA4TileC", "init"]
+- ["16MapControlModule07DefaultA4TileC", "state"]
+- ["16MapControlModule07DefaultA4TileC", "type"]
+- ["16MapControlModule13DefaultPlayerC", "Bool"]
+- ["16MapControlModule13DefaultPlayerC", "DefaultHero"]
+- ["16MapControlModule13DefaultPlayerC", "Hero"]
+- ["16MapControlModule13DefaultPlayerC", "String"]
+- ["16MapControlModule13DefaultPlayerC", "deinit"]
+- ["16MapControlModule13DefaultPlayerC", "hero"]
+- ["16MapControlModule13DefaultPlayerC", "init"]
+- ["16MapControlModule13DefaultPlayerC", "isAlive"]
+- ["16MapControlModule13DefaultPlayerC", "name"]
+- ["16MapControlModule13DefaultPlayerC", "position"]
+- ["SQ", "chest"]
+- ["SQ", "empty"]
+- ["SQ", "player"]
+- ["SQ", "rock"]
+- ["SQ", "teleport"]
+- ["SQ", "wall"]
+- ["SH", "chest"]
+- ["SH", "empty"]
+- ["SH", "player"]
+- ["SH", "rock"]
+- ["SH", "teleport"]
+- ["SH", "wall"]
+- ["16MapControlModule4HeroP", ""]
+- ["16MapControlModule4HeroP", "armor"]
+- ["16MapControlModule4HeroP", "energy"]
+- ["16MapControlModule4HeroP", "init"]
+- ["16MapControlModule4HeroP", "lifePoitns"]
+- ["16MapControlModule4HeroP", "race"]
+- ["16MapControlModule4HeroP", "weapon"]
+- ["16MapControlModule0A0P", "DefaultMapTile"]
+- ["16MapControlModule0A0P", ""]
+- ["16MapControlModule0A0P", "availableMoves"]
+- ["16MapControlModule0A0P", "init"]
+- ["16MapControlModule0A0P", "maze"]
+- ["16MapControlModule0A0P", "move"]
+- ["16MapControlModule0A0P", "players"]
+- ["16MapControlModule0A8RendererP", "init"]
+- ["16MapControlModule0A8RendererP", "render"]
+- ["16MapControlModule0A4TileP", ""]
+- ["16MapControlModule0A4TileP", "init"]
+- ["16MapControlModule0A4TileP", "state"]
+- ["16MapControlModule0A4TileP", "type"]
+- ["16MapControlModule0A8TileTypeO", "chest"]
+- ["16MapControlModule0A8TileTypeO", "empty"]
+- ["16MapControlModule0A8TileTypeO", "player"]
+- ["16MapControlModule0A8TileTypeO", "rock"]
+- ["16MapControlModule0A8TileTypeO", "teleport"]
+- ["16MapControlModule0A8TileTypeO", "wall"]
+- ["16MapControlModule0A10VisualizerC", "deinit"]
+- ["16MapControlModule0A10VisualizerC", "init"]
+- ["16MapControlModule0A10VisualizerC", "render"]
+- ["16MapControlModule6PlayerP", "DefaultHero"]
+- ["16MapControlModule6PlayerP", ""]
+- ["16MapControlModule6PlayerP", "hero"]
+- ["16MapControlModule6PlayerP", "init"]
+- ["16MapControlModule6PlayerP", "isAlive"]
+- ["16MapControlModule6PlayerP", "name"]
+- ["16MapControlModule6PlayerP", "position"]
+depends-nominal:
+- "16MapControlModule11DefaultHeroV"
+- "16MapControlModule07DefaultA0C"
+- "16MapControlModule07DefaultA4TileC"
+- "16MapControlModule13DefaultPlayerC"
+- "SQ"
+- "SH"
+- "16MapControlModule4HeroP"
+- "16MapControlModule0A0P"
+- "16MapControlModule0A8RendererP"
+- "16MapControlModule0A4TileP"
+- "16MapControlModule0A8TileTypeO"
+- "16MapControlModule0A10VisualizerC"
+- "16MapControlModule6PlayerP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "ed731d61df17897464d8658dd87c02bb"
