@@ -1,0 +1,30 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Player"
+provides-nominal:
+- "16MapControlModule6PlayerP"
+provides-member:
+- ["16MapControlModule6PlayerP", ""]
+depends-top-level:
+- "Bool"
+- "Hero"
+- "Int"
+- "Player"
+- "String"
+depends-member:
+- ["16MapControlModule6PlayerP", "Bool"]
+- ["16MapControlModule6PlayerP", "Hero"]
+- ["16MapControlModule6PlayerP", "Int"]
+- ["16MapControlModule6PlayerP", "String"]
+- ["16MapControlModule6PlayerP", "hero"]
+- ["16MapControlModule6PlayerP", "isAlive"]
+- ["16MapControlModule6PlayerP", "name"]
+- ["16MapControlModule6PlayerP", "position"]
+depends-nominal:
+- "16MapControlModule6PlayerP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "8b24abaae4865dbec9bc33e1d0453af8"

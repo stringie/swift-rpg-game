@@ -1,0 +1,45 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MapTileType"
+provides-nominal:
+- "16MapControlModule0A8TileTypeO"
+provides-member:
+- ["16MapControlModule0A8TileTypeO", ""]
+depends-top-level:
+- "=="
+- "MapTileType"
+depends-member:
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["s6HasherV", "combine"]
+- ["16MapControlModule0A8TileTypeO", "=="]
+- ["16MapControlModule0A8TileTypeO", "__derived_enum_equals"]
+- ["16MapControlModule0A8TileTypeO", "_rawHashValue"]
+- ["16MapControlModule0A8TileTypeO", "chest"]
+- ["16MapControlModule0A8TileTypeO", "deinit"]
+- ["16MapControlModule0A8TileTypeO", "empty"]
+- ["16MapControlModule0A8TileTypeO", "hash"]
+- ["16MapControlModule0A8TileTypeO", "hashValue"]
+- ["16MapControlModule0A8TileTypeO", "player"]
+- ["16MapControlModule0A8TileTypeO", "rock"]
+- ["16MapControlModule0A8TileTypeO", "teleport"]
+- ["16MapControlModule0A8TileTypeO", "wall"]
+depends-nominal:
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "16MapControlModule0A8TileTypeO"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "6b7a41f9c16cf3d63204d30db5a8ae1a"

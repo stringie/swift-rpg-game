@@ -1,0 +1,31 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Hero"
+provides-nominal:
+- "16MapControlModule4HeroP"
+provides-member:
+- ["16MapControlModule4HeroP", ""]
+depends-top-level:
+- "Armor"
+- "Hero"
+- "Int"
+- "String"
+- "Weapon"
+depends-member:
+- ["16MapControlModule4HeroP", "Armor"]
+- ["16MapControlModule4HeroP", "Int"]
+- ["16MapControlModule4HeroP", "String"]
+- ["16MapControlModule4HeroP", "Weapon"]
+- ["16MapControlModule4HeroP", "armor"]
+- ["16MapControlModule4HeroP", "energy"]
+- ["16MapControlModule4HeroP", "lifePoitns"]
+- ["16MapControlModule4HeroP", "race"]
+- ["16MapControlModule4HeroP", "weapon"]
+depends-nominal:
+- "16MapControlModule4HeroP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "59af120899eca55eeff04526ffb4ec5a"

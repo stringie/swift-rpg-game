@@ -1,0 +1,60 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MapVisualizer"
+provides-nominal:
+- "9MapModule0A10VisualizerC"
+provides-member:
+- ["9MapModule0A10VisualizerC", ""]
+depends-top-level:
+- !private "ExtendedGraphemeClusterType"
+- "Map"
+- "MapRenderer"
+- !private "MapTileType"
+- "MapVisualizer"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "print"
+depends-member:
+- ["SQ", "chest"]
+- ["SQ", "empty"]
+- ["SQ", "player"]
+- ["SQ", "rock"]
+- ["SQ", "teleport"]
+- ["SQ", "wall"]
+- ["SH", "chest"]
+- ["SH", "empty"]
+- ["SH", "player"]
+- ["SH", "rock"]
+- ["SH", "teleport"]
+- ["SH", "wall"]
+- !private ["9MapModule0A0P", "maze"]
+- ["9MapModule0A8RendererP", ""]
+- !private ["9MapModule0A8RendererP", "print"]
+- ["9MapModule0A8RendererP", "render"]
+- !private ["9MapModule0A4TileP", "type"]
+- ["9MapModule0A8TileTypeO", "chest"]
+- ["9MapModule0A8TileTypeO", "empty"]
+- ["9MapModule0A8TileTypeO", "player"]
+- ["9MapModule0A8TileTypeO", "rock"]
+- ["9MapModule0A8TileTypeO", "teleport"]
+- ["9MapModule0A8TileTypeO", "wall"]
+- ["9MapModule0A10VisualizerC", "Map"]
+- !private ["9MapModule0A10VisualizerC", "MapTileType"]
+- ["9MapModule0A10VisualizerC", "deinit"]
+- ["9MapModule0A10VisualizerC", "init"]
+- !private ["9MapModule0A10VisualizerC", "print"]
+- ["9MapModule0A10VisualizerC", "render"]
+depends-nominal:
+- "SQ"
+- "SH"
+- !private "9MapModule0A0P"
+- "9MapModule0A8RendererP"
+- !private "9MapModule0A4TileP"
+- "9MapModule0A8TileTypeO"
+- "9MapModule0A10VisualizerC"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "72ca07656ddab3b328276c53ca7f6a7e"

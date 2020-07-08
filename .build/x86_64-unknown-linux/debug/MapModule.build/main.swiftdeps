@@ -1,0 +1,151 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "mapVis"
+- "DefaultMapTile"
+- "DefaultMap"
+- "DefaultHero"
+- "DefaultPlayer"
+- "p"
+- "m"
+provides-nominal:
+- "9MapModule07DefaultA4TileC"
+- "9MapModule07DefaultA0C"
+- "9MapModule11DefaultHeroV"
+- "9MapModule13DefaultPlayerC"
+provides-member:
+- ["9MapModule07DefaultA4TileC", ""]
+- ["9MapModule07DefaultA0C", ""]
+- ["9MapModule11DefaultHeroV", ""]
+- ["9MapModule13DefaultPlayerC", ""]
+depends-top-level:
+- "Armor"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "DefaultHero"
+- "DefaultMap"
+- "DefaultMapTile"
+- "DefaultPlayer"
+- "FloatLiteralType"
+- "Hero"
+- "Int"
+- "IntegerLiteralType"
+- "Map"
+- "MapTile"
+- "MapTileType"
+- "MapVisualizer"
+- "Player"
+- "PlayerMove"
+- "String"
+- "StringLiteralType"
+- "Weapon"
+- "m"
+- "mapVis"
+- "p"
+depends-member:
+- ["9MapModule11DefaultHeroV", "Armor"]
+- ["9MapModule11DefaultHeroV", "Int"]
+- ["9MapModule11DefaultHeroV", "String"]
+- ["9MapModule11DefaultHeroV", "Weapon"]
+- ["9MapModule11DefaultHeroV", "armor"]
+- ["9MapModule11DefaultHeroV", "deinit"]
+- ["9MapModule11DefaultHeroV", "energy"]
+- ["9MapModule11DefaultHeroV", "init"]
+- ["9MapModule11DefaultHeroV", "lifePoitns"]
+- ["9MapModule11DefaultHeroV", "race"]
+- ["9MapModule11DefaultHeroV", "weapon"]
+- ["9MapModule07DefaultA0C", "DefaultMapTile"]
+- ["9MapModule07DefaultA0C", "MapTile"]
+- ["9MapModule07DefaultA0C", "Player"]
+- ["9MapModule07DefaultA0C", "PlayerMove"]
+- ["9MapModule07DefaultA0C", "availableMoves"]
+- ["9MapModule07DefaultA0C", "deinit"]
+- ["9MapModule07DefaultA0C", "init"]
+- ["9MapModule07DefaultA0C", "maze"]
+- ["9MapModule07DefaultA0C", "move"]
+- ["9MapModule07DefaultA0C", "players"]
+- ["9MapModule07DefaultA4TileC", "MapTileType"]
+- ["9MapModule07DefaultA4TileC", "String"]
+- ["9MapModule07DefaultA4TileC", "deinit"]
+- ["9MapModule07DefaultA4TileC", "init"]
+- ["9MapModule07DefaultA4TileC", "state"]
+- ["9MapModule07DefaultA4TileC", "type"]
+- ["9MapModule13DefaultPlayerC", "Bool"]
+- ["9MapModule13DefaultPlayerC", "DefaultHero"]
+- ["9MapModule13DefaultPlayerC", "Hero"]
+- ["9MapModule13DefaultPlayerC", "Int"]
+- ["9MapModule13DefaultPlayerC", "String"]
+- ["9MapModule13DefaultPlayerC", "deinit"]
+- ["9MapModule13DefaultPlayerC", "hero"]
+- ["9MapModule13DefaultPlayerC", "init"]
+- ["9MapModule13DefaultPlayerC", "isAlive"]
+- ["9MapModule13DefaultPlayerC", "name"]
+- ["9MapModule13DefaultPlayerC", "position"]
+- ["SQ", "chest"]
+- ["SQ", "empty"]
+- ["SQ", "player"]
+- ["SQ", "rock"]
+- ["SQ", "teleport"]
+- ["SQ", "wall"]
+- ["SH", "chest"]
+- ["SH", "empty"]
+- ["SH", "player"]
+- ["SH", "rock"]
+- ["SH", "teleport"]
+- ["SH", "wall"]
+- ["9MapModule4HeroP", ""]
+- ["9MapModule4HeroP", "armor"]
+- ["9MapModule4HeroP", "energy"]
+- ["9MapModule4HeroP", "init"]
+- ["9MapModule4HeroP", "lifePoitns"]
+- ["9MapModule4HeroP", "race"]
+- ["9MapModule4HeroP", "weapon"]
+- ["9MapModule0A0P", "DefaultMapTile"]
+- ["9MapModule0A0P", ""]
+- ["9MapModule0A0P", "availableMoves"]
+- ["9MapModule0A0P", "init"]
+- ["9MapModule0A0P", "maze"]
+- ["9MapModule0A0P", "move"]
+- ["9MapModule0A0P", "players"]
+- ["9MapModule0A8RendererP", "init"]
+- ["9MapModule0A8RendererP", "render"]
+- ["9MapModule0A4TileP", ""]
+- ["9MapModule0A4TileP", "init"]
+- ["9MapModule0A4TileP", "state"]
+- ["9MapModule0A4TileP", "type"]
+- ["9MapModule0A8TileTypeO", "chest"]
+- ["9MapModule0A8TileTypeO", "empty"]
+- ["9MapModule0A8TileTypeO", "player"]
+- ["9MapModule0A8TileTypeO", "rock"]
+- ["9MapModule0A8TileTypeO", "teleport"]
+- ["9MapModule0A8TileTypeO", "wall"]
+- ["9MapModule0A10VisualizerC", "deinit"]
+- ["9MapModule0A10VisualizerC", "init"]
+- ["9MapModule0A10VisualizerC", "render"]
+- ["9MapModule6PlayerP", "DefaultHero"]
+- ["9MapModule6PlayerP", ""]
+- ["9MapModule6PlayerP", "hero"]
+- ["9MapModule6PlayerP", "init"]
+- ["9MapModule6PlayerP", "isAlive"]
+- ["9MapModule6PlayerP", "name"]
+- ["9MapModule6PlayerP", "position"]
+depends-nominal:
+- "9MapModule11DefaultHeroV"
+- "9MapModule07DefaultA0C"
+- "9MapModule07DefaultA4TileC"
+- "9MapModule13DefaultPlayerC"
+- "SQ"
+- "SH"
+- "9MapModule4HeroP"
+- "9MapModule0A0P"
+- "9MapModule0A8RendererP"
+- "9MapModule0A4TileP"
+- "9MapModule0A8TileTypeO"
+- "9MapModule0A10VisualizerC"
+- "9MapModule6PlayerP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "0a812ade60207839dff5dea72e01b333"
