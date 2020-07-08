@@ -1,0 +1,303 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DefaultMapTile"
+- "MazeGenerator"
+provides-nominal:
+- "9MapModule07DefaultA4TileC"
+- "9MapModule13MazeGeneratorC"
+provides-member:
+- ["9MapModule07DefaultA4TileC", ""]
+- ["9MapModule13MazeGeneratorC", ""]
+- ["Sa", ""]
+- ["Sa", "init"]
+depends-top-level:
+- !private "!="
+- !private "*"
+- !private "-"
+- !private "..."
+- !private "..<"
+- !private "/"
+- !private "=="
+- "Array"
+- "AssignmentPrecedence"
+- !private "DefaultMap"
+- "DefaultMapTile"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "Map"
+- "MapGenerator"
+- "MapTile"
+- "MapTileType"
+- "MazeGenerator"
+- "Player"
+- "String"
+- !private "StringLiteralType"
+- !private "i"
+- !private "print"
+- !private "readLine"
+- !private "zip"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["s18AdditiveArithmeticP", "random"]
+- ["Sa", "Int"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "i"]
+- ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "subscript"]
+- !private ["s10ArraySliceV", "type"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "i"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["SK", "type"]
+- !private ["Sz", "init"]
+- !private ["Sz", "random"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "random"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "i"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "type"]
+- !private ["SL", "init"]
+- !private ["SL", "random"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "i"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "i"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "random"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "type"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "i"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "random"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "type"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "i"]
+- !private ["Se", "init"]
+- !private ["Se", "random"]
+- !private ["Se", "subscript"]
+- !private ["9MapModule07DefaultA0C", "deinit"]
+- !private ["9MapModule07DefaultA0C", "init"]
+- !private ["9MapModule07DefaultA0C", "setMazeDetails"]
+- ["9MapModule07DefaultA4TileC", "MapTileType"]
+- ["9MapModule07DefaultA4TileC", "String"]
+- ["9MapModule07DefaultA4TileC", "deinit"]
+- ["9MapModule07DefaultA4TileC", "init"]
+- ["9MapModule07DefaultA4TileC", "state"]
+- ["9MapModule07DefaultA4TileC", "type"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "i"]
+- !private ["SE", "init"]
+- !private ["SE", "random"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "append"]
+- !private ["SQ", "chest"]
+- !private ["SQ", "count"]
+- !private ["SQ", "empty"]
+- !private ["SQ", "i"]
+- !private ["SQ", "init"]
+- !private ["SQ", "player"]
+- !private ["SQ", "random"]
+- !private ["SQ", "rock"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "teleport"]
+- !private ["SQ", "type"]
+- !private ["SQ", "wall"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "i"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "type"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "random"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "random"]
+- !private ["SH", "append"]
+- !private ["SH", "chest"]
+- !private ["SH", "count"]
+- !private ["SH", "empty"]
+- !private ["SH", "i"]
+- !private ["SH", "init"]
+- !private ["SH", "player"]
+- !private ["SH", "random"]
+- !private ["SH", "rock"]
+- !private ["SH", "subscript"]
+- !private ["SH", "teleport"]
+- !private ["SH", "type"]
+- !private ["SH", "wall"]
+- !private ["Si", "init"]
+- !private ["Si", "random"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "random"]
+- !private ["9MapModule0A0P", "init"]
+- !private ["9MapModule0A0P", "setMazeDetails"]
+- !private ["9MapModule0A9GeneratorP", "Array"]
+- !private ["9MapModule0A9GeneratorP", "DefaultMap"]
+- !private ["9MapModule0A9GeneratorP", "DefaultMapTile"]
+- !private ["9MapModule0A9GeneratorP", "Int"]
+- !private ["9MapModule0A9GeneratorP", "MapTileType"]
+- ["9MapModule0A9GeneratorP", ""]
+- !private ["9MapModule0A9GeneratorP", "create"]
+- ["9MapModule0A9GeneratorP", "generate"]
+- !private ["9MapModule0A9GeneratorP", "print"]
+- !private ["9MapModule0A9GeneratorP", "readLine"]
+- !private ["9MapModule0A9GeneratorP", "zip"]
+- ["9MapModule0A4TileP", ""]
+- !private ["9MapModule0A4TileP", "init"]
+- ["9MapModule0A4TileP", "state"]
+- ["9MapModule0A4TileP", "type"]
+- !private ["9MapModule0A8TileTypeO", "chest"]
+- !private ["9MapModule0A8TileTypeO", "deinit"]
+- !private ["9MapModule0A8TileTypeO", "empty"]
+- !private ["9MapModule0A8TileTypeO", "player"]
+- !private ["9MapModule0A8TileTypeO", "rock"]
+- !private ["9MapModule0A8TileTypeO", "teleport"]
+- !private ["9MapModule0A8TileTypeO", "wall"]
+- !private ["9MapModule13MazeGeneratorC", "Array"]
+- !private ["9MapModule13MazeGeneratorC", "DefaultMap"]
+- !private ["9MapModule13MazeGeneratorC", "DefaultMapTile"]
+- !private ["9MapModule13MazeGeneratorC", "Int"]
+- ["9MapModule13MazeGeneratorC", "Map"]
+- ["9MapModule13MazeGeneratorC", "MapTile"]
+- !private ["9MapModule13MazeGeneratorC", "MapTileType"]
+- ["9MapModule13MazeGeneratorC", "Player"]
+- ["9MapModule13MazeGeneratorC", "String"]
+- !private ["9MapModule13MazeGeneratorC", "create"]
+- ["9MapModule13MazeGeneratorC", "deinit"]
+- ["9MapModule13MazeGeneratorC", "generate"]
+- ["9MapModule13MazeGeneratorC", "init"]
+- !private ["9MapModule13MazeGeneratorC", "print"]
+- !private ["9MapModule13MazeGeneratorC", "readLine"]
+- !private ["9MapModule13MazeGeneratorC", "zip"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "random"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "i"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["SM", "type"]
+- !private ["Sj", "init"]
+- !private ["Sj", "random"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "i"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "type"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "i"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "type"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["s10SIMDScalarP", "random"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "i"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["ST", "type"]
+- !private ["SZ", "init"]
+- !private ["SZ", "random"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "random"]
+- !private ["Sx", "init"]
+- !private ["Sx", "random"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "i"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "type"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "random"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "i"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "type"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "random"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "i"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "i"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "random"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "9MapModule07DefaultA0C"
+- "9MapModule07DefaultA4TileC"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "9MapModule0A0P"
+- "9MapModule0A9GeneratorP"
+- "9MapModule0A4TileP"
+- !private "9MapModule0A8TileTypeO"
+- "9MapModule13MazeGeneratorC"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "0f696d29e31fc70a81aed6daee00f3d2"

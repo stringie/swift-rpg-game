@@ -14,6 +14,12 @@
     "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapModule.build/MapVisualizer~partial.swiftmodule",
     "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapModule.build/MapVisualizer.swiftdeps"
   },
+  "/home/runner/swift-rpg-game/Sources/MapModule/MazeGenerator.swift": {
+    "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapModule.build/MazeGenerator.d",
+    "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapModule.build/MazeGenerator.swift.o",
+    "swiftmodule": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapModule.build/MazeGenerator~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapModule.build/MazeGenerator.swiftdeps"
+  },
   "/home/runner/swift-rpg-game/Sources/MapModule/enums/MapMoveDirectionEnum.swift": {
     "dependencies": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapModule.build/enums/MapMoveDirectionEnum.d",
     "object": "/home/runner/swift-rpg-game/.build/x86_64-unknown-linux/debug/MapModule.build/enums/MapMoveDirectionEnum.swift.o",

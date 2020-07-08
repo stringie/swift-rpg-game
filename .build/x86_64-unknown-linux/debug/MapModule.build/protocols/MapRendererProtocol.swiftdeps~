@@ -1,0 +1,21 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MapRenderer"
+provides-nominal:
+- "9MapModule0A8RendererP"
+provides-member:
+- ["9MapModule0A8RendererP", ""]
+depends-top-level:
+- "Map"
+- "MapRenderer"
+depends-member:
+- ["9MapModule0A8RendererP", "Map"]
+- ["9MapModule0A8RendererP", "render"]
+depends-nominal:
+- "9MapModule0A8RendererP"
+depends-dynamic-lookup:
+depends-external:
+- "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/usr/lib/swift/linux/x86_64/glibc.modulemap"
+interface-hash: "66ea1fb5951eb6ce00fd67e40b0cc6ac"
