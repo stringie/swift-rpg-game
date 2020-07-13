@@ -1,10 +1,10 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "mapVis"
 - "DefaultHero"
 - "DefaultPlayer"
 - "p"
 - "p2"
+- "mapVis"
 - "g"
 - "m"
 - "command"
@@ -194,4 +194,4 @@ depends-external:
 - "/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
 - "/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/usr/lib/swift/linux/x86_64/glibc.modulemap"
-interface-hash: "08b94c4090a6121e7afe6c74c3421877"
+interface-hash: "a6d6a7626325e029aea5932db529ac98"

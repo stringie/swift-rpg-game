@@ -17,7 +17,9 @@ depends-top-level:
 - !private "..."
 - !private "..<"
 - !private "/"
+- !private "<"
 - !private "=="
+- !private ">"
 - "Array"
 - "AssignmentPrecedence"
 - !private "DefaultMap"
@@ -36,6 +38,7 @@ depends-top-level:
 - !private "print"
 - !private "readLine"
 - !private "zip"
+- !private "||"
 - !private "~="
 depends-member:
 - !private ["s18AdditiveArithmeticP", "init"]

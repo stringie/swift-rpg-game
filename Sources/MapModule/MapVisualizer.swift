@@ -1,5 +1,6 @@
 class MapVisualizer: MapRenderer {
   public func render(map: Map) {
+    print("------------------------------------------------------------------------------------")
     let xAxis = Array(0 ..< map.maze.count).map({"\u{001B}[0;3\($0 % 2 + 3)m\($0 < 10 ? " " : "")" + String($0)}).joined(separator: "")
     print("  " + xAxis)
     var i: Int = 0

@@ -17,7 +17,9 @@ depends-top-level:
 - !private "..."
 - !private "..<"
 - !private "/"
+- !private "<="
 - !private "=="
+- !private ">="
 - "Array"
 - "AssignmentPrecedence"
 - !private "DefaultMap"
@@ -33,10 +35,10 @@ depends-top-level:
 - "Player"
 - "String"
 - !private "StringLiteralType"
-- !private "i"
 - !private "print"
 - !private "readLine"
 - !private "zip"
+- !private "||"
 - !private "~="
 depends-member:
 - !private ["s18AdditiveArithmeticP", "init"]
@@ -44,15 +46,14 @@ depends-member:
 - ["Sa", "Int"]
 - !private ["Sa", "append"]
 - !private ["Sa", "count"]
-- !private ["Sa", "i"]
 - ["Sa", "init"]
 - !private ["Sa", "subscript"]
 - !private ["s10ArraySliceV", "subscript"]
 - !private ["s10ArraySliceV", "type"]
 - !private ["SK", "append"]
 - !private ["SK", "count"]
-- !private ["SK", "i"]
 - !private ["SK", "init"]
+- !private ["SK", "map"]
 - !private ["SK", "subscript"]
 - !private ["SK", "type"]
 - !private ["Sz", "init"]
@@ -61,36 +62,36 @@ depends-member:
 - !private ["s7CVarArgP", "random"]
 - !private ["Sl", "append"]
 - !private ["Sl", "count"]
-- !private ["Sl", "i"]
 - !private ["Sl", "init"]
+- !private ["Sl", "map"]
 - !private ["Sl", "subscript"]
 - !private ["Sl", "type"]
 - !private ["SL", "init"]
 - !private ["SL", "random"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
-- !private ["s28CustomDebugStringConvertibleP", "i"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "type"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "count"]
-- !private ["s17CustomReflectableP", "i"]
 - !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
 - !private ["s17CustomReflectableP", "random"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s17CustomReflectableP", "type"]
 - !private ["s23CustomStringConvertibleP", "append"]
 - !private ["s23CustomStringConvertibleP", "count"]
-- !private ["s23CustomStringConvertibleP", "i"]
 - !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
 - !private ["s23CustomStringConvertibleP", "random"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "type"]
 - !private ["Se", "append"]
 - !private ["Se", "count"]
-- !private ["Se", "i"]
 - !private ["Se", "init"]
+- !private ["Se", "map"]
 - !private ["Se", "random"]
 - !private ["Se", "subscript"]
 - !private ["9MapModule07DefaultA0C", "deinit"]
@@ -104,16 +105,16 @@ depends-member:
 - ["9MapModule07DefaultA4TileC", "type"]
 - !private ["SE", "append"]
 - !private ["SE", "count"]
-- !private ["SE", "i"]
 - !private ["SE", "init"]
+- !private ["SE", "map"]
 - !private ["SE", "random"]
 - !private ["SE", "subscript"]
 - !private ["SQ", "append"]
 - !private ["SQ", "chest"]
 - !private ["SQ", "count"]
 - !private ["SQ", "empty"]
-- !private ["SQ", "i"]
 - !private ["SQ", "init"]
+- !private ["SQ", "map"]
 - !private ["SQ", "player"]
 - !private ["SQ", "random"]
 - !private ["SQ", "rock"]
@@ -123,7 +124,6 @@ depends-member:
 - !private ["SQ", "wall"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
-- !private ["s25ExpressibleByArrayLiteralP", "i"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s25ExpressibleByArrayLiteralP", "type"]
@@ -135,8 +135,8 @@ depends-member:
 - !private ["SH", "chest"]
 - !private ["SH", "count"]
 - !private ["SH", "empty"]
-- !private ["SH", "i"]
 - !private ["SH", "init"]
+- !private ["SH", "map"]
 - !private ["SH", "player"]
 - !private ["SH", "random"]
 - !private ["SH", "rock"]
@@ -192,7 +192,6 @@ depends-member:
 - !private ["s10MirrorPathP", "random"]
 - !private ["SM", "append"]
 - !private ["SM", "count"]
-- !private ["SM", "i"]
 - !private ["SM", "init"]
 - !private ["SM", "subscript"]
 - !private ["SM", "type"]
@@ -200,13 +199,14 @@ depends-member:
 - !private ["Sj", "random"]
 - !private ["Sk", "append"]
 - !private ["Sk", "count"]
-- !private ["Sk", "i"]
 - !private ["Sk", "init"]
+- !private ["Sk", "map"]
 - !private ["Sk", "subscript"]
 - !private ["Sk", "type"]
+- !private ["Sn", "map"]
+- !private ["SX", "map"]
 - !private ["Sm", "append"]
 - !private ["Sm", "count"]
-- !private ["Sm", "i"]
 - !private ["Sm", "init"]
 - !private ["Sm", "subscript"]
 - !private ["Sm", "type"]
@@ -214,8 +214,8 @@ depends-member:
 - !private ["s10SIMDScalarP", "random"]
 - !private ["ST", "append"]
 - !private ["ST", "count"]
-- !private ["ST", "i"]
 - !private ["ST", "init"]
+- !private ["ST", "map"]
 - !private ["ST", "subscript"]
 - !private ["ST", "type"]
 - !private ["SZ", "init"]
@@ -226,7 +226,6 @@ depends-member:
 - !private ["Sx", "random"]
 - !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "count"]
-- !private ["s14_ArrayProtocolP", "i"]
 - !private ["s14_ArrayProtocolP", "init"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s14_ArrayProtocolP", "type"]
@@ -234,7 +233,6 @@ depends-member:
 - !private ["s30_CustomPlaygroundQuickLookableP", "random"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "count"]
-- !private ["s24_DestructorSafeContainerP", "i"]
 - !private ["s24_DestructorSafeContainerP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "type"]
@@ -242,12 +240,10 @@ depends-member:
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "random"]
 - !private ["s19_HasContiguousBytesP", "append"]
 - !private ["s19_HasContiguousBytesP", "count"]
-- !private ["s19_HasContiguousBytesP", "i"]
 - !private ["s19_HasContiguousBytesP", "init"]
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "i"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "random"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
@@ -283,6 +279,8 @@ depends-nominal:
 - !private "SM"
 - !private "Sj"
 - !private "Sk"
+- !private "Sn"
+- !private "SX"
 - !private "Sm"
 - !private "s10SIMDScalarP"
 - !private "ST"
