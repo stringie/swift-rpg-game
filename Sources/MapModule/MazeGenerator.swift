@@ -15,13 +15,13 @@ class MazeGenerator: MapGenerator {
     var mapSize: Int = 0
 
     repeat {
-      print("Моля въведете желания размер на картата (Пример: \"30\"): ")
+      print("Моля въведете желания размер на картата (Пример: \"30\", max: 99, min: 10): ")
       if let size = Int(readLine()!) {
         mapSize = size
       } else {
         print("Невалиден вход! Моля, опитай пак.")  
       }
-    } while mapSize == 0
+    } while mapSize == 0 || mapSize < 10 || mapSize > 99
 
     // initialize empty maze of size mapSize
     var maze: [[MapTile]] = Array(generating: { _ in Array(generating: { _ in self.create(type: "empty")}, count: mapSize)}, count: mapSize)

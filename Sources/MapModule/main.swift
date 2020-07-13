@@ -1,5 +1,3 @@
-var mapVis = MapVisualizer()
-
 struct DefaultHero: Hero {
   var race: String  = "Random Race"
 
@@ -19,12 +17,12 @@ class DefaultPlayer: Player {
 var p = DefaultPlayer()
 var p2 = DefaultPlayer()
 p2.name = "Two"
-var g = MazeGenerator()
 
+var mapVis = MapVisualizer()
+var g = MazeGenerator()
 var m = g.generate(players: [p, p2])
 
 var command: String = "exit"
-
 repeat {
   mapVis.render(map: m)
   print()
@@ -37,7 +35,7 @@ repeat {
     i += 1
   }
 
-  print("\nEnter command index or type exit to end game: ")
+  print("\nEnter command index or type \"exit\" to end game: ")
   if let c = readLine() {
     command = c
 
